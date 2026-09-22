@@ -58,6 +58,50 @@ farmbrain_project/
 ├── requirements.txt
 └── README.md
 
+# 🚀 Project Development Process
+
+## Step 1: Created the FarmBrain Project
+
+## Step 2: Created the Dataset Structure
+
+## Step 3: Created the Python Virtual Environment
+
+## Step 4: Activated the Virtual Environment
+
+## Step 5: Created requirements.txt
+
+## Step 6: Installed the Required Dependencies
+
+## Step 7: Created the Streamlit Dashboard
+
+## Step 8: Added Agriculture Modules
+
+## Step 9: Added Image Processing
+
+## Step 10: Added ResNet18 Model
+
+## Step 11: Started the FarmBrain Application
+
+## Step 12: Tested Image Upload
+
+## Step 13: Fixed the Streamlit Compatibility Error
+
+## Step 14: Successfully Tested the Final Application
+
+# 📁 Final Project Structure
+
+# 🔗 Source Code
+
+# 🔄 Project Workflow
+
+# ✅ What I Completed
+
+# 🔮 Future Improvements
+
+# 👨‍💻 Author
+
+# 📌 Project Summary
+
 # 🚀Project Development Process
 Step 1: Created the FarmBrain Project
 First, I created the main project for the FarmBrain Smart Agriculture System.
