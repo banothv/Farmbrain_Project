@@ -74,8 +74,9 @@ farmbrain_project/
 ├── train.py
 ├── requirements.txt
 └── README.md
-📸 Project Structure
-``` 
+```
+## 📸 Project Structure
+
 ## Step 2: Created the Dataset Structure
 I created the dataset directory and organized the image categories.
 ```text
