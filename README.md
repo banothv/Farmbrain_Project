@@ -87,7 +87,7 @@ dataset/
 └── healthy/
 ```
 The diseased and healthy folders are used to organize agricultural images for the machine-learning workflow.
-<img width="1297" height="1212" alt="image" src="https://github.com/user-attachments/assets/934eb702-bd4d-4a64-8e6e-b89bfa07ad6f" />
+<img width="350" height="420" alt="image" src="https://github.com/user-attachments/assets/934eb702-bd4d-4a64-8e6e-b89bfa07ad6f" />
 
 ## Step 3: Created the Python Virtual Environment
 To keep the project dependencies isolated from the system Python installation, I created a Python virtual environment.
