@@ -75,7 +75,8 @@ farmbrain_project/
 ├── requirements.txt
 └── README.md
 ```
-## 📸 Project Structure
+<img width="254" height="328" alt="image" src="https://github.com/user-attachments/assets/417b2540-fa65-4488-9c36-6d308069a3d6" />
+
 
 ## Step 2: Created the Dataset Structure
 I created the dataset directory and organized the image categories.
