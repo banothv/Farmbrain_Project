@@ -62,6 +62,7 @@ farmbrain_project/
 ## Step 1: Created the FarmBrain Project
 First, I created the main project for the FarmBrain Smart Agriculture System.
 The project was organized into separate folders for the dashboard, dataset, models, utilities, and Python scripts.
+```text
 farmbrain_project/
 │
 ├── dashboard/
@@ -74,16 +75,17 @@ farmbrain_project/
 ├── requirements.txt
 └── README.md
 📸 Project Structure
- 
+``` 
 ## Step 2: Created the Dataset Structure
 I created the dataset directory and organized the image categories.
+```text
 dataset/
 │
 ├── diseased/
 └── healthy/
 The diseased and healthy folders are used to organize agricultural images for the machine-learning workflow.
 📸 Dataset Structure
- 
+```
 ## Step 3: Created the Python Virtual Environment
 To keep the project dependencies isolated from the system Python installation, I created a Python virtual environment.
 python -m venv .venv
