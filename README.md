@@ -104,6 +104,7 @@ The virtual environment keeps the project's Python packages separated from other
 On Windows PowerShell, I activated the virtual environment using:
 ```text
 .venv\Scripts\Activate.ps1
+```
 Initially, PowerShell prevented the activation script from running.
 I temporarily changed the execution policy using:
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
