@@ -352,7 +352,7 @@ Upload Project to GitHub
 - [x] Tested the final FarmBrain dashboard
 - [x] Prepared project documentation for GitHub
 
-``
+
 ## 🔮 Future Improvements
 The project can be extended with additional functionality such as:
 - Add and train custom agriculture-specific models
@@ -366,12 +366,12 @@ The project can be extended with additional functionality such as:
 - Add additional dashboard visualizations
 - Add automated testing
 - Deploy the application online
-  ```
+
 ## 👨‍💻 Author
 
 ## Venkatesh
 
-``
+
 📍 Hyderabad, India
 
 ## 📌 Project Summary
