@@ -87,8 +87,8 @@ dataset/
 └── healthy/
 ```
 The diseased and healthy folders are used to organize agricultural images for the machine-learning workflow.
-## 📸 Dataset Structure
-``
+<img width="1297" height="1212" alt="image" src="https://github.com/user-attachments/assets/934eb702-bd4d-4a64-8e6e-b89bfa07ad6f" />
+
 ## Step 3: Created the Python Virtual Environment
 To keep the project dependencies isolated from the system Python installation, I created a Python virtual environment.
 ```text
@@ -100,8 +100,8 @@ This created the following environment:
 ```
 The virtual environment keeps the project's Python packages separated from other projects.
 
-## 📸 Virtual Environment
-`` 
+<img width="1272" height="1236" alt="image" src="https://github.com/user-attachments/assets/ec1a2fc7-c4f7-417a-bbd7-e8c79a1e877e" />
+
 ## Step 4: Activated the Virtual Environment
 On Windows PowerShell, I activated the virtual environment using:
 ```text
@@ -123,8 +123,8 @@ The terminal displayed:
 ```
 This confirmed that the virtual environment was active.
 
-## 📸 Virtual Environment Activated
- ``
+<img width="1305" height="1205" alt="image" src="https://github.com/user-attachments/assets/b233ec8b-24d4-484f-a69f-f35de5eb7289" />
+
 ## Step 5: Created requirements.txt
 I created a requirements.txt file containing the libraries required for the FarmBrain project.
 ```text
@@ -143,8 +143,8 @@ gymnasium
 streamlit
 ```
 The purpose of this file is to define the Python dependencies required by the project.
-## 📸 Project Requirements
- ``
+<img width="1317" height="1194" alt="image" src="https://github.com/user-attachments/assets/08f609d1-4378-439d-8743-4dd0acf6a053" />
+
 ## Step 6: Installed the Required Dependencies
 After activating the virtual environment, I installed the required libraries using:
 ```text
@@ -161,8 +161,8 @@ These packages provide functionality for:
 - Computer vision
 - Streamlit dashboard development
   
-## 📸 Installing Dependencies
- ``
+<img width="1323" height="1189" alt="image" src="https://github.com/user-attachments/assets/75f2f76e-561e-454e-b68a-61099d162770" />
+
 ## Step 7: Created the Streamlit Dashboard
 I created the main Streamlit application:
 ```text
