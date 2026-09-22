@@ -175,7 +175,8 @@ The application displays the FarmBrain title:
 ```text
 st.title("🌱 FarmBrain Smart Agriculture System")
 ```
-## 📸 Streamlit Dashboard Code
+<img width="650" height="720" alt="image" src="https://github.com/user-attachments/assets/418ebd02-e0df-4be5-925a-fda1523440ec" />
+
  
 🔗 Source Code
 ``
@@ -196,8 +197,8 @@ choice = st.sidebar.selectbox(    "Select Module",    [        "Soil Analysis", 
 ```
 This allows the user to select an agriculture module from the dashboard.
 ``
-## 📸 Agriculture Modules
- ``
+<img width="650" height="720" alt="image" src="https://github.com/user-attachments/assets/25d833f5-63e9-4265-84af-264f94b35aef" />
+
 ## Step 9: Added Image Processing
 The project uses TorchVision to process uploaded images.
 
@@ -213,8 +214,8 @@ and converted into a PyTorch tensor.
 
 This prepares the image for processing by the image model.
 
-## 📸 Image Processing Code
- ``
+<img width="650" height="720" alt="image" src="https://github.com/user-attachments/assets/1754e917-c38d-42fa-b81b-7e24acf53fec" />
+
 ## Step 10: Added ResNet18 Model
 I added a ResNet18 model using TorchVision.
 ```text
@@ -227,8 +228,8 @@ The model is loaded using the default TorchVision weights and placed into evalua
 
 This provides the image-model component used by the application.
 
-## 📸 ResNet18 Model
- ``
+<img width="650" height="720" alt="image" src="https://github.com/user-attachments/assets/b11537a4-24fa-45a1-8180-f00f54f18ba6" />
+
 ## Step 11: Started the FarmBrain Application
 After completing the dashboard setup, I started the Streamlit application using:
 ```text
@@ -242,8 +243,8 @@ http://localhost:8501
 ```
 I opened this address in my web browser to test the application.
 
-## 📸 Streamlit Application Running
- ``
+<img width="650" height="720" alt="image" src="https://github.com/user-attachments/assets/f95356c9-d6d2-488d-975c-88f1ec675414" />
+
 ## Step 12: Tested Image Upload
 I tested the dashboard by selecting the Pest Detection module.
 
@@ -255,8 +256,8 @@ I uploaded a crop image through the Streamlit application.
 
 The uploaded image was successfully displayed on the dashboard.
 
-## 📸 Crop Image Upload
- ``
+<img width="650" height="720" alt="image" src="https://github.com/user-attachments/assets/8035fbd1-7f55-401d-add8-fbfa177e4d16" />
+
 ## Step 13: Fixed the Streamlit Compatibility Error
 During testing, I encountered the following error:
 ```text
@@ -276,8 +277,8 @@ After making this change, the image display worked correctly.
 
 This fixed the Streamlit image-display compatibility issue in the development environment.
 
-## 📸 Streamlit Compatibility Fix
- ``
+<img width="650" height="720" alt="image" src="https://github.com/user-attachments/assets/589a05b7-b343-4dfc-908d-886759191479" />
+
 ## Step 14: Successfully Tested the Final Application
 After fixing the Streamlit image-display issue, I ran the application again.
 
@@ -292,8 +293,11 @@ The final application was successfully tested in the local development environme
 ``
 ## 🖥️ Final Application Output
 
+### Soil Analysis
+### Disease Detection
+### Pest Detection
+### Yield Prediction
 
-``
 ## 🔄 Project Workflow
 
 The development workflow followed in this project was:
