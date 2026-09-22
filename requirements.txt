@@ -1,0 +1,13 @@
+torch
+torchvision
+tensorflow
+scikit-learn
+numpy
+pandas
+matplotlib
+opencv-python
+pillow
+ultralytics
+stable-baselines3
+gymnasium
+streamlit
