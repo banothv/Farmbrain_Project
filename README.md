@@ -316,9 +316,13 @@ The project can be extended with additional functionality such as:
   ```
 ## 👨‍💻 Author
 Venkatesh
+
 ``
 ## 📍 Hyderabad, India
+
 ## 📌 Project Summary
 ```text
 FarmBrain is a Smart Agriculture System developed using Python, machine-learning technologies, computer-vision tools, and Streamlit.
 During development, I created the project structure, organized the dataset, configured the Python environment, installed the required dependencies, developed the Streamlit dashboard, added agriculture modules, implemented image preprocessing, configured the ResNet18 model, tested image upload functionality, fixed a Streamlit compatibility issue, and successfully ran the final application.
+```
+## THE END
