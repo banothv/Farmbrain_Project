@@ -58,6 +58,12 @@ farmbrain_project/
 ├── requirements.txt
 └── README.md
 
+# 🌱 FarmBrain – Smart Agriculture System
+
+## 🛠️ Technologies Used
+
+## 📁 Project Structure
+
 # 🚀 Project Development Process
 
 ## Step 1: Created the FarmBrain Project
