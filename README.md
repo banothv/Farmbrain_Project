@@ -316,8 +316,8 @@ The project can be extended with additional functionality such as:
   ```
 ## 👨‍💻 Author
 Venkatesh
-Data Engineer
-📍 Hyderabad, India
+``
+## 📍 Hyderabad, India
 ## 📌 Project Summary
 ```text
 FarmBrain is a Smart Agriculture System developed using Python, machine-learning technologies, computer-vision tools, and Streamlit.
