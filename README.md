@@ -124,8 +124,8 @@ This confirmed that the virtual environment was active.
 ## 📸 Virtual Environment Activated
  ``
 ## Step 5: Created requirements.txt
-```text
 I created a requirements.txt file containing the libraries required for the FarmBrain project.
+```text
 torch
 torchvision
 tensorflow
@@ -139,121 +139,161 @@ ultralytics
 stable-baselines3
 gymnasium
 streamlit
+```
 The purpose of this file is to define the Python dependencies required by the project.
-📸 Project Requirements
- ```
+## 📸 Project Requirements
+ ``
 ## Step 6: Installed the Required Dependencies
-```text
 After activating the virtual environment, I installed the required libraries using:
+```text
 pip install -r requirements.txt
+```
 The required Python packages were successfully installed.
+
 These packages provide functionality for:
+
 - Machine learning
 - Deep learning
 - Image processing
 - Data processing
 - Computer vision
 - Streamlit dashboard development
-📸 Installing Dependencies
- ```
+  
+## 📸 Installing Dependencies
+ ``
 ## Step 7: Created the Streamlit Dashboard
-```text
 I created the main Streamlit application:
+```text
 dashboard/
 └── streamlit_app.py
+```
 The dashboard was developed using Streamlit.
-The application displays the FarmBrain title:
-st.title("🌱 FarmBrain Smart Agriculture System")
 
-📸 Streamlit Dashboard Code
+The application displays the FarmBrain title:
+```text
+st.title("🌱 FarmBrain Smart Agriculture System")
+```
+## 📸 Streamlit Dashboard Code
  
 🔗 Source Code
-```
+``
 ## Step 8: Added Agriculture Modules
-```text
 I added a module-selection menu to the Streamlit sidebar.
+
 The available modules are:
+```text
 Soil Analysis
 Disease Detection
 Pest Detection
 Yield Prediction
+```
 The module selector is implemented using:
-choice = st.sidebar.selectbox(    "Select Module",    [        "Soil Analysis",        "Disease Detection",        "Pest Detection",        "Yield Prediction"    ])
-
+```text
+choice = st.sidebar.selectbox(    "Select Module",    [        "Soil Analysis",        "Disease Detection",        "Pest Detection",        "Yield Prediction"    ]
+)
+```
 This allows the user to select an agriculture module from the dashboard.
-📸 Agriculture Modules
- ```
+``
+## 📸 Agriculture Modules
+ ``
 ## Step 9: Added Image Processing
-```text
 The project uses TorchVision to process uploaded images.
+
 The image transformation pipeline is:
+```text
 transform = transforms.Compose([    transforms.Resize((224, 224)),    transforms.ToTensor()])
-
+```
 The uploaded image is resized to:
+```text
 224 × 224
+```
 and converted into a PyTorch tensor.
-This prepares the image for processing by the image model.
-📸 Image Processing Code
- ```
-## Step 10: Added ResNet18 Model
-```text
-I added a ResNet18 model using TorchVision.
-model = resnet18(    weights=ResNet18_Weights.DEFAULT)model.eval()
 
+This prepares the image for processing by the image model.
+
+## 📸 Image Processing Code
+ ``
+## Step 10: Added ResNet18 Model
+I added a ResNet18 model using TorchVision.
+```text
+model = resnet18(
+ weights=ResNet18_Weights.DEFAULT
+)
+model.eval()
+```
 The model is loaded using the default TorchVision weights and placed into evaluation mode.
+
 This provides the image-model component used by the application.
-📸 ResNet18 Model
- ```
+
+## 📸 ResNet18 Model
+ ``
 ## Step 11: Started the FarmBrain Application
-```text
 After completing the dashboard setup, I started the Streamlit application using:
+```text
 python -m streamlit run dashboard\streamlit_app.py
+```
 Streamlit started the application locally.
+
 The application was available at:
+```text
 http://localhost:8501
+```
 I opened this address in my web browser to test the application.
-📸 Streamlit Application Running
- ```
+
+## 📸 Streamlit Application Running
+ ``
 ## Step 12: Tested Image Upload
-```text
 I tested the dashboard by selecting the Pest Detection module.
+
 The dashboard provides an image upload option.
-I uploaded a crop image through the Streamlit application.
-The uploaded image was successfully displayed on the dashboard.
-📸 Crop Image Upload
- ```
-## Step 13: Fixed the Streamlit Compatibility Error
 ```text
+Upload crop image
+```
+I uploaded a crop image through the Streamlit application.
+
+The uploaded image was successfully displayed on the dashboard.
+
+## 📸 Crop Image Upload
+ ``
+## Step 13: Fixed the Streamlit Compatibility Error
 During testing, I encountered the following error:
+```text
 TypeError:
 ImageMixin.image() got an unexpected keyword argument
 'use_column_width'
+```
 The previous code was:
-st.image(image, use_column_width=True)
-
-I updated the code to:
-st.image(image, width="stretch")
-
-After making this change, the image display worked correctly.
-This fixed the Streamlit image-display compatibility issue in the development environment.
-📸 Streamlit Compatibility Fix
- ```
-## Step 14: Successfully Tested the Final Application
 ```text
+st.image(image, use_column_width=True)
+```
+I updated the code to:
+```text
+st.image(image, width="stretch")
+```
+After making this change, the image display worked correctly.
+
+This fixed the Streamlit image-display compatibility issue in the development environment.
+
+## 📸 Streamlit Compatibility Fix
+ ``
+## Step 14: Successfully Tested the Final Application
 After fixing the Streamlit image-display issue, I ran the application again.
+
 The final test successfully showed:
+
 - 🌱 FarmBrain Smart Agriculture System
 - 🐛 Pest Detection module
 - 📤 Crop image upload
 - 🖼️ Uploaded crop image displayed successfully
 - ✅ Streamlit dashboard working
 The final application was successfully tested in the local development environment.
-```
+``
 ## 🖥️ Final Application Output
 
 
-```
+``
 ## 🔄 Project Workflow
+
 The development workflow followed in this project was:
 ```text
 Create FarmBrain Project
@@ -314,7 +354,6 @@ Upload Project to GitHub
 
 ``
 ## 🔮 Future Improvements
-```text
 The project can be extended with additional functionality such as:
 - Add and train custom agriculture-specific models
 - Improve disease detection
@@ -329,14 +368,15 @@ The project can be extended with additional functionality such as:
 - Deploy the application online
   ```
 ## 👨‍💻 Author
-Venkatesh
+
+## Venkatesh
 
 ``
-## 📍 Hyderabad, India
+📍 Hyderabad, India
 
 ## 📌 Project Summary
-```text
+
 FarmBrain is a Smart Agriculture System developed using Python, machine-learning technologies, computer-vision tools, and Streamlit.
 During development, I created the project structure, organized the dataset, configured the Python environment, installed the required dependencies, developed the Streamlit dashboard, added agriculture modules, implemented image preprocessing, configured the ResNet18 model, tested image upload functionality, fixed a Streamlit compatibility issue, and successfully ran the final application.
-```
+
 ## THE END
