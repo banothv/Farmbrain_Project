@@ -83,32 +83,41 @@ dataset/
 │
 ├── diseased/
 └── healthy/
-The diseased and healthy folders are used to organize agricultural images for the machine-learning workflow.
-📸 Dataset Structure
 ```
+The diseased and healthy folders are used to organize agricultural images for the machine-learning workflow.
+## 📸 Dataset Structure
+``
 ## Step 3: Created the Python Virtual Environment
 To keep the project dependencies isolated from the system Python installation, I created a Python virtual environment.
 ```text
 python -m venv .venv
+```
 This created the following environment:
-.venv/
-The virtual environment keeps the project's Python packages separated from other projects.
-📸 Virtual Environment
-``` 
-## Step 4: Activated the Virtual Environment
 ```text
+.venv/
+```
+The virtual environment keeps the project's Python packages separated from other projects.
+
+## 📸 Virtual Environment
+`` 
+## Step 4: Activated the Virtual Environment
 On Windows PowerShell, I activated the virtual environment using:
+```text
 .venv\Scripts\Activate.ps1
 Initially, PowerShell prevented the activation script from running.
 I temporarily changed the execution policy using:
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 Then I activated the environment again:
+```text
 .venv\Scripts\Activate.ps1
+```
 The terminal displayed:
+```text
 (.venv)
 This confirmed that the virtual environment was active.
-📸 Virtual Environment Activated
- ```
+```
+## 📸 Virtual Environment Activated
+ ``
 ## Step 5: Created requirements.txt
 ```text
 I created a requirements.txt file containing the libraries required for the FarmBrain project.
