@@ -57,59 +57,9 @@ farmbrain_project/
 ├── train.py
 ├── requirements.txt
 └── README.md
-
-# 🌱 FarmBrain – Smart Agriculture System
-
-## 🛠️ Technologies Used
-
-## 📁 Project Structure
-
-# 🚀 Project Development Process
-
-## Step 1: Created the FarmBrain Project
-
-## Step 2: Created the Dataset Structure
-
-## Step 3: Created the Python Virtual Environment
-
-## Step 4: Activated the Virtual Environment
-
-## Step 5: Created requirements.txt
-
-## Step 6: Installed the Required Dependencies
-
-## Step 7: Created the Streamlit Dashboard
-
-## Step 8: Added Agriculture Modules
-
-## Step 9: Added Image Processing
-
-## Step 10: Added ResNet18 Model
-
-## Step 11: Started the FarmBrain Application
-
-## Step 12: Tested Image Upload
-
-## Step 13: Fixed the Streamlit Compatibility Error
-
-## Step 14: Successfully Tested the Final Application
-
-# 📁 Final Project Structure
-
-# 🔗 Source Code
-
-# 🔄 Project Workflow
-
-# ✅ What I Completed
-
-# 🔮 Future Improvements
-
-# 👨‍💻 Author
-
-# 📌 Project Summary
-
+```
 # 🚀Project Development Process
-Step 1: Created the FarmBrain Project
+## Step 1: Created the FarmBrain Project
 First, I created the main project for the FarmBrain Smart Agriculture System.
 The project was organized into separate folders for the dashboard, dataset, models, utilities, and Python scripts.
 farmbrain_project/
@@ -125,7 +75,7 @@ farmbrain_project/
 └── README.md
 📸 Project Structure
  
-Step 2: Created the Dataset Structure
+## Step 2: Created the Dataset Structure
 I created the dataset directory and organized the image categories.
 dataset/
 │
@@ -134,7 +84,7 @@ dataset/
 The diseased and healthy folders are used to organize agricultural images for the machine-learning workflow.
 📸 Dataset Structure
  
-Step 3: Created the Python Virtual Environment
+## Step 3: Created the Python Virtual Environment
 To keep the project dependencies isolated from the system Python installation, I created a Python virtual environment.
 python -m venv .venv
 This created the following environment:
@@ -142,7 +92,7 @@ This created the following environment:
 The virtual environment keeps the project's Python packages separated from other projects.
 📸 Virtual Environment
  
-Step 4: Activated the Virtual Environment
+## Step 4: Activated the Virtual Environment
 On Windows PowerShell, I activated the virtual environment using:
 .venv\Scripts\Activate.ps1
 Initially, PowerShell prevented the activation script from running.
@@ -155,7 +105,7 @@ The terminal displayed:
 This confirmed that the virtual environment was active.
 📸 Virtual Environment Activated
  
-Step 5: Created requirements.txt
+## Step 5: Created requirements.txt
 I created a requirements.txt file containing the libraries required for the FarmBrain project.
 torch
 torchvision
@@ -173,7 +123,7 @@ streamlit
 The purpose of this file is to define the Python dependencies required by the project.
 📸 Project Requirements
  
-Step 6: Installed the Required Dependencies
+## Step 6: Installed the Required Dependencies
 After activating the virtual environment, I installed the required libraries using:
 pip install -r requirements.txt
 The required Python packages were successfully installed.
@@ -186,7 +136,7 @@ These packages provide functionality for:
 - Streamlit dashboard development
 📸 Installing Dependencies
  
-Step 7: Created the Streamlit Dashboard
+## Step 7: Created the Streamlit Dashboard
 I created the main Streamlit application:
 dashboard/
 └── streamlit_app.py
@@ -197,7 +147,7 @@ st.title("🌱 FarmBrain Smart Agriculture System")
 📸 Streamlit Dashboard Code
  
 🔗 Source Code
-Step 8: Added Agriculture Modules
+## Step 8: Added Agriculture Modules
 I added a module-selection menu to the Streamlit sidebar.
 The available modules are:
 Soil Analysis
@@ -210,7 +160,7 @@ choice = st.sidebar.selectbox(    "Select Module",    [        "Soil Analysis", 
 This allows the user to select an agriculture module from the dashboard.
 📸 Agriculture Modules
  
-Step 9: Added Image Processing
+## Step 9: Added Image Processing
 The project uses TorchVision to process uploaded images.
 The image transformation pipeline is:
 transform = transforms.Compose([    transforms.Resize((224, 224)),    transforms.ToTensor()])
@@ -221,7 +171,7 @@ and converted into a PyTorch tensor.
 This prepares the image for processing by the image model.
 📸 Image Processing Code
  
-Step 10: Added ResNet18 Model
+## Step 10: Added ResNet18 Model
 I added a ResNet18 model using TorchVision.
 model = resnet18(    weights=ResNet18_Weights.DEFAULT)model.eval()
 
@@ -229,7 +179,7 @@ The model is loaded using the default TorchVision weights and placed into evalua
 This provides the image-model component used by the application.
 📸 ResNet18 Model
  
-Step 11: Started the FarmBrain Application
+## Step 11: Started the FarmBrain Application
 After completing the dashboard setup, I started the Streamlit application using:
 python -m streamlit run dashboard\streamlit_app.py
 Streamlit started the application locally.
@@ -238,14 +188,14 @@ http://localhost:8501
 I opened this address in my web browser to test the application.
 📸 Streamlit Application Running
  
-Step 12: Tested Image Upload
+## Step 12: Tested Image Upload
 I tested the dashboard by selecting the Pest Detection module.
 The dashboard provides an image upload option.
 I uploaded a crop image through the Streamlit application.
 The uploaded image was successfully displayed on the dashboard.
 📸 Crop Image Upload
  
-Step 13: Fixed the Streamlit Compatibility Error
+## Step 13: Fixed the Streamlit Compatibility Error
 During testing, I encountered the following error:
 TypeError:
 ImageMixin.image() got an unexpected keyword argument
@@ -260,7 +210,7 @@ After making this change, the image display worked correctly.
 This fixed the Streamlit image-display compatibility issue in the development environment.
 📸 Streamlit Compatibility Fix
  
-Step 14: Successfully Tested the Final Application
+## Step 14: Successfully Tested the Final Application
 After fixing the Streamlit image-display issue, I ran the application again.
 The final test successfully showed:
 - 🌱 FarmBrain Smart Agriculture System
