@@ -118,8 +118,9 @@ Then I activated the environment again:
 The terminal displayed:
 ```text
 (.venv)
-This confirmed that the virtual environment was active.
 ```
+This confirmed that the virtual environment was active.
+
 ## 📸 Virtual Environment Activated
  ``
 ## Step 5: Created requirements.txt
