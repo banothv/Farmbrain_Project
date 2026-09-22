@@ -106,8 +106,11 @@ On Windows PowerShell, I activated the virtual environment using:
 .venv\Scripts\Activate.ps1
 ```
 Initially, PowerShell prevented the activation script from running.
+```
 I temporarily changed the execution policy using:
+```text
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
 Then I activated the environment again:
 ```text
 .venv\Scripts\Activate.ps1
